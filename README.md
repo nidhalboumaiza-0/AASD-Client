@@ -1,5 +1,7 @@
 # AASD Client
 
+> **Archived:** The maintained client and server now live together in [aasd-medical-platform](https://github.com/nidhalboumaiza-0/aasd-medical-platform), including Docker Compose, seeded patient and doctor accounts, and complete run instructions.
+
 Web client for a medical appointment and consultation platform. The application gives patients and medical staff authenticated access to profiles, consultation requests, appointment workflows, and real-time discussions.
 
 ## Features

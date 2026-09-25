@@ -17,14 +17,32 @@ Web client for a medical appointment and consultation platform. The application 
 - Ant Design, Radix UI, Tailwind CSS, and Lucide icons
 - React Hook Form and Zod
 
-## Getting Started
+## Run Locally
 
-```bash
-npm install
-npm run dev
-```
+1. Install Node.js 18 or newer.
+2. Start the matching `AASD_SERVER` API and confirm that it is available locally.
+3. Open a terminal in this repository and install the dependencies:
 
-The development server is provided by Vite. The API base URL and other environment-specific values are read from the local environment configuration; use your own development credentials and do not commit secrets.
+   ```bash
+   npm install
+   ```
+
+4. Create `.env.local` in the repository root and point the client to the API and its public image server:
+
+   ```dotenv
+   VITE_API_REST_API_URL=http://localhost:3000/api/v1
+   VITE_API_CDN_SERVER=http://localhost:3000
+   ```
+
+5. Start the Vite development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL printed by Vite, normally `http://localhost:5173`.
+
+Use local development values and do not commit private configuration.
 
 ## Available Commands
 
